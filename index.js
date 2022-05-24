@@ -1,11 +1,47 @@
-let audio1 = new Audio("./notes/key01.wav")
-let audio2 = new Audio("./notes/key02.wav")
-let audio3 = new Audio("./notes/key03.wav")
-let audio4 = new Audio("./notes/key04.wav")
-let audio5 = new Audio("./notes/key05.wav")
-let audio6 = new Audio("./notes/key06.wav")
-let audio7 = new Audio("./notes/key07.wav")
-let audio8 = new Audio("./notes/key08.wav")
+// first row
+let audio1 = new Audio("./notes/1.wav")
+let audio2 = new Audio("./notes/2.wav")
+let audio3 = new Audio("./notes/3.wav")
+let audio4 = new Audio("./notes/4.wav")
+let audio5 = new Audio("./notes/5.wav")
+let audio6 = new Audio("./notes/6.wav")
+let audio7 = new Audio("./notes/7.wav")
+let audio8 = new Audio("./notes/8.wav")
+let audio9 = new Audio("./notes/9.wav")
+let audio0 = new Audio("./notes/0.wav")
+
+// second row
+let audioA = new Audio("./notes/a.wav")
+let audioZ = new Audio("./notes/z.wav")
+let audioE = new Audio("./notes/e.wav")
+let audioR = new Audio("./notes/r.wav")
+let audioT = new Audio("./notes/t.wav")
+let audioY = new Audio("./notes/y.wav")
+let audioU = new Audio("./notes/u.wav")
+let audioI = new Audio("./notes/i.wav")
+let audioO = new Audio("./notes/o.wav")
+let audioP = new Audio("./notes/p.wav")
+
+// third row
+let audioQ = new Audio("./notes/q.wav")
+let audioS = new Audio("./notes/s.wav")
+let audioD = new Audio("./notes/d.wav")
+let audioF = new Audio("./notes/f.wav")
+let audioG = new Audio("./notes/g.wav")
+let audioH = new Audio("./notes/h.wav")
+let audioJ = new Audio("./notes/j.wav")
+let audioK = new Audio("./notes/k.wav")
+let audioL = new Audio("./notes/l.wav")
+let audioM = new Audio("./notes/m.wav")
+
+// fourth row
+let audioW = new Audio("./notes/w.wav")
+let audioX = new Audio("./notes/x.wav")
+let audioC = new Audio("./notes/c.wav")
+let audioV = new Audio("./notes/v.wav")
+let audioB = new Audio("./notes/b.wav")
+let audioN = new Audio("./notes/n.wav")
+
 
 window.addEventListener('keydown', (e) => {
     switch (e.key) {
