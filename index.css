@@ -29,6 +29,7 @@ a {
     background-color: black;
     border-radius: 10px;
     width: 1150px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.8);
 }
 
 .mix {
