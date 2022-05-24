@@ -1,8 +1,19 @@
+body {
+    background: url(./wood.png) no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    font-family: 'Gille Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 3px solid black;
     background-color: black;
     border-radius: 10px;
-    margin: 60px auto;
     width: 1150px;
 }
 
@@ -12,6 +23,7 @@
 }
 
 .keyboard {
+    position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -28,13 +40,15 @@
 }
 
 .black-key {
-    right: 20px;
-    width: 20px;
+    position: relative;
+    right: 11px;
+    width: 22px;
     height: 130px;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(0, 0, 0);
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
 }
+
 .key {
     position: absolute;
     margin-left: auto;
@@ -42,15 +56,15 @@
     left: 0;
     right: 0;
     text-align: center;
-    bottom: 20px;
-    font-size: 0.8em;
+    bottom: 0px;
+    font-size: 0.9em;
     font-weight: bold;
 }
 
-.txt-white {
-    color: white;
+.text-white {
+    color: white !important;
 }
 
 .active {
-    opacity: 0.8;
+    background-color: #b3b3b3;
 }
