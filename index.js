@@ -70,7 +70,7 @@ let audioN = new Audio("./notes/n.wav")
 
 window.addEventListener('keydown', (e) => {
     switch (e.key) {
-        // first row
+        // first row white keys
         case '&':
             document.getElementById("1").classList.add("active")
             if (audio1.paused) {
@@ -162,7 +162,7 @@ window.addEventListener('keydown', (e) => {
             }
             break;
 
-        // second row
+        // second row white keys
         case 'a':
             document.getElementById("a").classList.add("active")
             if (audioA.paused) {
@@ -254,7 +254,7 @@ window.addEventListener('keydown', (e) => {
             }
             break;
 
-        // third row
+        // third row white keys
         case 'q':
             document.getElementById("q").classList.add("active")
             if (audioQ.paused) {
@@ -346,7 +346,7 @@ window.addEventListener('keydown', (e) => {
             }
             break;
 
-        // fourth row
+        // fourth row white keys
         case 'w':
             document.getElementById("w").classList.add("active")
             if (audioW.paused) {
@@ -402,6 +402,239 @@ window.addEventListener('keydown', (e) => {
             }
             break;
 
+        // first row black keys
+        case '1':
+            document.getElementById("1b").classList.add("active")
+            if (audio1b.paused) {
+                audio1b.play()
+            } else {
+                audio1b.play()
+                audio1b.currentTime = 0
+            }
+            break;
+        case '2':
+            document.getElementById("2b").classList.add("active")
+            if (audio2b.paused) {
+                audio2b.play()
+            } else {
+                audio2b.play()
+                audio2b.currentTime = 0
+            }
+            break;
+        case '4':
+            document.getElementById("4b").classList.add("active")
+            if (audio4b.paused) {
+                audio4b.play()
+            } else {
+                audio4b.play()
+                audio4b.currentTime = 0
+            }
+            break;
+        case '5':
+            document.getElementById("5b").classList.add("active")
+            if (audio5b.paused) {
+                audio5b.play()
+            } else {
+                audio5b.play()
+                audio5b.currentTime = 0
+            }
+            break;
+        case '6':
+            document.getElementById("6b").classList.add("active")
+            if (audio6b.paused) {
+                audio6b.play()
+            } else {
+                audio6b.play()
+                audio6b.currentTime = 0
+            }
+            break;
+        case '8':
+            document.getElementById("8b").classList.add("active")
+            if (audio8b.paused) {
+                audio8b.play()
+            } else {
+                audio8b.play()
+                audio8b.currentTime = 0
+            }
+            break;
+        case '9':
+            document.getElementById("9b").classList.add("active")
+            if (audio9b.paused) {
+                audio9b.play()
+            } else {
+                audio9b.play()
+                audio9b.currentTime = 0
+            }
+            break;
+
+        // second row black keys
+        case 'A':
+            document.getElementById("Ab").classList.add("active")
+            if (audioAb.paused) {
+                audioAb.play()
+            } else {
+                audioAb.play()
+                audioAb.currentTime = 0
+            }
+            break;
+        case 'Z':
+            document.getElementById("Zb").classList.add("active")
+            if (audioZb.paused) {
+                audioZb.play()
+            } else {
+                audioZb.play()
+                audioZb.currentTime = 0
+            }
+            break;
+        case 'E':
+            document.getElementById("Eb").classList.add("active")
+            if (audioEb.paused) {
+                audioEb.play()
+            } else {
+                audioEb.play()
+                audioEb.currentTime = 0
+            }
+            break;
+        case 'T':
+            document.getElementById("Tb").classList.add("active")
+            if (audioTb.paused) {
+                audioTb.play()
+            } else {
+                audioTb.play()
+                audioTb.currentTime = 0
+            }
+            break;
+        case 'Y':
+            document.getElementById("Yb").classList.add("active")
+            if (audioYb.paused) {
+                audioYb.play()
+            } else {
+                audioYb.play()
+                audioYb.currentTime = 0
+            }
+            break;
+        case 'I':
+            document.getElementById("Ib").classList.add("active")
+            if (audioIb.paused) {
+                audioIb.play()
+            } else {
+                audioIb.play()
+                audioIb.currentTime = 0
+            }
+            break;
+        case 'O':
+            document.getElementById("Ob").classList.add("active")
+            if (audioOb.paused) {
+                audioOb.play()
+            } else {
+                audioOb.play()
+                audioOb.currentTime = 0
+            }
+            break;
+        case 'P':
+            document.getElementById("Pb").classList.add("active")
+            if (audioPb.paused) {
+                audioPb.play()
+            } else {
+                audioPb.play()
+                audioPb.currentTime = 0
+            }
+            break;
+
+        // third row black keys
+        case 'S':
+            document.getElementById("Sb").classList.add("active")
+            if (audioSb.paused) {
+                audioSb.play()
+            } else {
+                audioSb.play()
+                audioSb.currentTime = 0
+            }
+            break;
+        case 'D':
+            document.getElementById("Db").classList.add("active")
+            if (audioDb.paused) {
+                audioDb.play()
+            } else {
+                audioDb.play()
+                audioDb.currentTime = 0
+            }
+            break;
+        case 'G':
+            document.getElementById("Gb").classList.add("active")
+            if (audioGb.paused) {
+                audioGb.play()
+            } else {
+                audioGb.play()
+                audioGb.currentTime = 0
+            }
+            break;
+        case 'H':
+            document.getElementById("Hb").classList.add("active")
+            if (audioHb.paused) {
+                audioHb.play()
+            } else {
+                audioHb.play()
+                audioHb.currentTime = 0
+            }
+            break;
+        case 'J':
+            document.getElementById("Jb").classList.add("active")
+            if (audioJb.paused) {
+                audioJb.play()
+            } else {
+                audioJb.play()
+                audioJb.currentTime = 0
+            }
+            break;
+        case 'L':
+            document.getElementById("Lb").classList.add("active")
+            if (audioLb.paused) {
+                audioLb.play()
+            } else {
+                audioLb.play()
+                audioLb.currentTime = 0
+            }
+            break;
+        case 'M':
+            document.getElementById("Mb").classList.add("active")
+            if (audioMb.paused) {
+                audioMb.play()
+            } else {
+                audioMb.play()
+                audioMb.currentTime = 0
+            }
+            break;
+
+        // fourth row black keys
+        case 'X':
+            document.getElementById("Xb").classList.add("active")
+            if (audioXb.paused) {
+                audioXb.play()
+            } else {
+                audioXb.play()
+                audioXb.currentTime = 0
+            }
+            break;
+        case 'C':
+            document.getElementById("Cb").classList.add("active")
+            if (audioCb.paused) {
+                audioCb.play()
+            } else {
+                audioCb.play()
+                audioCb.currentTime = 0
+            }
+            break;
+        case 'V':
+            document.getElementById("Vb").classList.add("active")
+            if (audioVb.paused) {
+                audioVb.play()
+            } else {
+                audioVb.play()
+                audioVb.currentTime = 0
+            }
+            break;
+
         default:
             break;
     }
@@ -409,7 +642,7 @@ window.addEventListener('keydown', (e) => {
 
 window.addEventListener('keyup', (e) => {
     switch (e.key) {
-        // first row
+        // first row white keys
         case '&':
             document.getElementById("1").classList.remove("active")
             break;
@@ -441,7 +674,7 @@ window.addEventListener('keyup', (e) => {
             document.getElementById("0").classList.remove("active")
             break;
 
-        // second row
+        // second row white keys
         case 'a':
             document.getElementById("a").classList.remove("active")
             break;
@@ -473,7 +706,7 @@ window.addEventListener('keyup', (e) => {
             document.getElementById("p").classList.remove("active")
             break;
 
-        // third row
+        // third row white keys
         case 'q':
             document.getElementById("q").classList.remove("active")
             break;
@@ -505,7 +738,7 @@ window.addEventListener('keyup', (e) => {
             document.getElementById("m").classList.remove("active")
             break;
 
-        // fourth row
+        // fourth row white keys
         case 'w':
             document.getElementById("w").classList.remove("active")
             break;
@@ -523,6 +756,95 @@ window.addEventListener('keyup', (e) => {
             break;
         case 'n':
             document.getElementById("n").classList.remove("active")
+            break;
+
+        // first row black keys
+        case '1':
+            document.getElementById("1b").classList.remove("active")
+            break;
+        case '2':
+            document.getElementById("2b").classList.remove("active")
+            break;
+        case '4':
+            document.getElementById("4b").classList.remove("active")
+            break;
+        case '5':
+            document.getElementById("5b").classList.remove("active")
+            break;
+        case '6':
+            document.getElementById("6b").classList.remove("active")
+            break;
+        case '8':
+            document.getElementById("8b").classList.remove("active")
+            break;
+        case '9':
+            document.getElementById("9b").classList.remove("active")
+            break;
+
+        // second row black keys
+        case 'A':
+            document.getElementById("Ab").classList.remove("active")
+            break;
+        case 'Z':
+            document.getElementById("Zb").classList.remove("active")
+            break;
+        case 'E':
+            document.getElementById("Eb").classList.remove("active")
+            break;
+        case 'T':
+            document.getElementById("Tb").classList.remove("active")
+            break;
+        case 'Y':
+            document.getElementById("Yb").classList.remove("active")
+            break;
+        case 'I':
+            document.getElementById("Ib").classList.remove("active")
+            break;
+        case 'O':
+            document.getElementById("Ob").classList.remove("active")
+            break;
+        case 'P':
+            document.getElementById("Pb").classList.remove("active")
+            break;
+
+        // third row black keys
+        case 'S':
+            document.getElementById("Sb").classList.remove("active")
+            break;
+        case 'D':
+            document.getElementById("Db").classList.remove("active")
+            break;
+        case 'G':
+            document.getElementById("Gb").classList.remove("active")
+            break;
+        case 'H':
+            document.getElementById("Hb").classList.remove("active")
+            break;
+        case 'J':
+            document.getElementById("Jb").classList.remove("active")
+            break;
+        case 'L':
+            document.getElementById("Lb").classList.remove("active")
+            break;
+        case 'M':
+            document.getElementById("Mb").classList.remove("active")
+            break;
+
+        // fourth row black keys
+        case 'X':
+            document.getElementById("Xb").classList.remove("active")
+            break;
+        case 'C':
+            document.getElementById("Cb").classList.remove("active")
+            break;
+        case 'V':
+            document.getElementById("Vb").classList.remove("active")
+            break;
+        case 'B':
+            document.getElementById("Bb").classList.remove("active")
+            break;
+        case 'N':
+            document.getElementById("Nb").classList.remove("active")
             break;
 
         default:
