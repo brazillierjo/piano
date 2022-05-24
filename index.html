@@ -12,8 +12,24 @@
     <a href="https://github.com/brazillierjo/piano" target="_blank" class="github">
         View this repository on GitHub
     </a>
+
     <div class="container">
-        <div class="mix"></div>
+        <div class="mix">
+            <div class="letters-switch">
+                <input name="letters" type="checkbox" class="letters-switch" id="letters-switch" checked>
+                <label for="letters">Afficher les caractères</label>
+            </div>
+            <div class="screen">
+                screen
+            </div>
+            <div class="socials">
+                <ul class="list-social">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Malt</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="keyboard">
             <!-- first row -->
             <div id="1" class="white-key">
@@ -165,7 +181,9 @@
         </div>
     </div>
 
+    <div class="loader" id="loader"></div>
 
-    <script src="index.js""></script>
+
+<script src="index.js"></script>
 </body>
 </html>

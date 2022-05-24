@@ -68,6 +68,26 @@ let audioVb = new Audio("./notes/Vb.wav")
 let audioB = new Audio("./notes/b.wav")
 let audioN = new Audio("./notes/n.wav")
 
+let loader = document.getElementById("loader")
+setTimeout(function () {
+    loader.style.display = "none"
+}, 400)
+
+let checkedLetters = document.getElementById('letters-switch')
+let letters = document.getElementsByClassName("key")
+
+checkedLetters.addEventListener('change', function () {
+    if (checkedLetters.checked) {
+        for (let i = 0; i < letters.length; i++) {
+            letters[i].style.display = "block"
+        }
+    } else {
+        for (let i = 0; i < letters.length; i++) {
+            letters[i].style.display = "none"
+        }
+    }
+})
+
 window.addEventListener('keydown', (e) => {
     switch (e.key) {
         // first row white keys

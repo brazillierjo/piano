@@ -10,6 +10,10 @@ body {
 a {
     text-decoration: none;
 }
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
 
 .github {
     margin: 0 0 0 30px;
@@ -32,11 +36,43 @@ a {
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.8);
 }
 
+/* screen part */
 .mix {
+    display: flex;
+        justify-content: space-around;
     height: 150px;
     background-color: rgb(29, 29, 29);
 }
 
+.letters-switch {
+    padding: 20px 10px 20px 10px;
+    color: white;
+}
+
+.screen {
+    width: 600px;
+    border-radius: 8px;
+    height: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.901);
+    color: black;
+}
+
+.socials {
+    padding: 20px 10px 20px 10px;
+}
+
+.list-social {
+    list-style-type: none;
+    text-align: right;
+}
+
+.list-social li {
+    margin: 7px 0;
+}
+
+/* KEYBOARD */
 .keyboard {
     position: relative;
     display: flex;
@@ -82,4 +118,24 @@ a {
 
 .active {
     background-color: #b3b3b3;
+}
+.loader {
+    box-shadow: 0 0 0 99999px rgb(0 0 0 / 80%);
+    margin: 300px auto;
+    border: 40px solid #f3f3f3;
+    border-top: 40px solid #3498db;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
