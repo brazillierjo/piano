@@ -71,7 +71,7 @@ let audioN = new Audio("./notes/n.wav")
 let loader = document.getElementById("loader")
 setTimeout(function () {
     loader.style.display = "none"
-}, 400)
+}, 2000)
 
 let checkedLetters = document.getElementById('letters-switch')
 let letters = document.getElementsByClassName("key")
