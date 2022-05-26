@@ -871,3 +871,103 @@ window.addEventListener('keyup', (e) => {
             break;
     }
 })
+
+document.getElementById("1").addEventListener("click", function () {
+    if (audio1.paused) {
+        audio1.play()
+    } else {
+        audio1.play()
+        audio1.currentTime = 0
+    }
+})
+
+document.getElementById("1b").addEventListener("click", function () {
+    if (audio1b.paused) {
+        audio1b.play()
+    } else {
+        audio1b.play()
+        audio1b.currentTime = 0
+    }
+})
+
+document.getElementById("2").addEventListener("click", function () {
+    if (audio2.paused) {
+        audio2.play()
+    } else {
+        audio2.play()
+        audio2.currentTime = 0
+    }
+})
+
+document.getElementById("2b").addEventListener("click", function () {
+    if (audio2b.paused) {
+        audio2b.play()
+    } else {
+        audio2b.play()
+        audio2b.currentTime = 0
+    }
+})
+
+document.getElementById("3").addEventListener("click", function () {
+    if (audio3.paused) {
+        audio3.play()
+    } else {
+        audio3.play()
+        audio3.currentTime = 0
+    }
+})
+
+document.getElementById("4").addEventListener("click", function () {
+    if (audio4.paused) {
+        audio4.play()
+    } else {
+        audio4.play()
+        audio4.currentTime = 0
+    }
+})
+
+document.getElementById("4b").addEventListener("click", function () {
+    if (audio4b.paused) {
+        audio4b.play()
+    } else {
+        audio4b.play()
+        audio4b.currentTime = 0
+    }
+})
+
+document.getElementById("5").addEventListener("click", function () {
+    if (audio5.paused) {
+        audio5.play()
+    } else {
+        audio5.play()
+        audio5.currentTime = 0
+    }
+})
+
+document.getElementById("5b").addEventListener("click", function () {
+    if (audio5b.paused) {
+        audio5b.play()
+    } else {
+        audio5b.play()
+        audio5b.currentTime = 0
+    }
+})
+
+document.getElementById("6").addEventListener("click", function () {
+    if (audio6.paused) {
+        audio6.play()
+    } else {
+        audio6.play()
+        audio6.currentTime = 0
+    }
+})
+
+document.getElementById("6b").addEventListener("click", function () {
+    if (audio6b.paused) {
+        audio6b.play()
+    } else {
+        audio6b.play()
+        audio6b.currentTime = 0
+    }
+})
+
