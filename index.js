@@ -68,10 +68,10 @@ let audioVb = new Audio("./notes/Vb.wav")
 let audioB = new Audio("./notes/b.wav")
 let audioN = new Audio("./notes/n.wav")
 
-let loader = document.getElementById("loader")
-setTimeout(function () {
-    loader.style.display = "none"
-}, 2000)
+let loader = document.getElementById("loader");
+setTimeout(function() {
+  loader.style.display = "none";
+}, 2000);
 
 let checkedLetters = document.getElementById('letters-switch')
 let letters = document.getElementsByClassName("key")
